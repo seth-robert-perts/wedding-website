@@ -213,7 +213,7 @@ $(document).ready(function () {
         var data = $(this).serialize();
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
-        console.log(MD5($('#invite_code').val()))
+        console.log(data)
         if (MD5($('#invite_code').val()) !== '7867cb74eb81f16dfdcf1802446c4bec') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
