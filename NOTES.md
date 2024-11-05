@@ -20,4 +20,4 @@ apk update && \
 apk add --update nodejs npm && \
 npm install --global gulp && \
 npm install && \
-gulp    
+gulp
