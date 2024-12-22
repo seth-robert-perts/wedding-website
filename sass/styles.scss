@@ -253,10 +253,10 @@ Hero
 .hero {
   min-height: 750px;
   background: url('../img/hero-min.jpg') center center;
-  -webkit-background-size: auto;
-  -moz-background-size: auto;
-  -o-background-size: auto;
-  background-size: auto;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   position: relative;
 
   /*.rsvp-btn {
