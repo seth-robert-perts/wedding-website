@@ -281,7 +281,7 @@ Hero
     padding-top: 40%;
   }
   .hero-content img {
-    // width: 55%;
+    width: 55%;
     margin-bottom: 12%;
   }
 }
@@ -300,8 +300,8 @@ Hero
 .move-down {
   position: relative;
   top: 150px; 
-  width: 10%; 
-  height: auto; 
+  width: 50% !important; 
+  height: auto !important;; 
 }
 header {
   padding: 50px 0;
