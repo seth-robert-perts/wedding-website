@@ -297,6 +297,10 @@ Hero
   z-index: 999;
   width: 100%;
 }
+.move-down {
+  position: relative;
+  top: 20px; /* Adjust the value as needed */
+}
 header {
   padding: 50px 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
