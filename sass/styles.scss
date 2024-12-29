@@ -290,16 +290,16 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
-  justify-content: center;
-  display: flex;
-  height: 60px;
-  align-items: center;
 }
 .fixed {
   position: fixed;
   background-color: rgb(128, 170, 255);
   z-index: 999;
   width: 100%;
+  justify-content: center;
+  display: flex;
+  height: 60px;
+  align-items: center;
 }
 .move-down {
   position: relative;
