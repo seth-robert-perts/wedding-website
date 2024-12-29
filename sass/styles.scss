@@ -290,6 +290,10 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
+  justify-content: center;
+  display: flex;
+  height: 60px;
+  align-items: center;
 }
 .fixed {
   position: fixed;
