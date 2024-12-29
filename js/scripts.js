@@ -134,7 +134,7 @@ $(document).ready(function () {
             }
         });
 
-    // });
+    });
 
     /********************** Social Share buttons ***********************/
     var share_bar = document.getElementsByClassName('share-bar');
