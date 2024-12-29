@@ -296,6 +296,10 @@ Hero
   background-color: rgb(128, 170, 255);
   z-index: 999;
   width: 100%;
+  justify-content: center;
+  display: flex;
+  height: 60px;
+  align-items: center;
 }
 .move-down {
   position: relative;
