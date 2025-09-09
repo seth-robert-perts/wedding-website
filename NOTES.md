@@ -23,3 +23,5 @@ npm install && \
 gulp
 
 apk update && apk add --update nodejs npm && npm install --global gulp && npm install && gulp
+
+npm install && gulp
